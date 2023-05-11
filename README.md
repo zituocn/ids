@@ -11,7 +11,17 @@ go get github.com/zituocn/ids
 ### 使用
 
 ```go
+package main
 
+import (
+    "github.com/zituocn/ids"
+)
+
+func main(){
+    id := ids.New()
+	fmt.Println(id)
+}
+ 
 ```
 
 
