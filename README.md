@@ -19,7 +19,7 @@ import (
 
 func main(){
     id := ids.New()
-	fmt.Println(id)
+    fmt.Println(id)
 }
  
 ```
